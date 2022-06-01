@@ -105,10 +105,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginHorizontal: 5,
-    
-    
     alignItems: 'center',
-
   },
   rowHeading: {
     borderWidth: 2
