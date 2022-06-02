@@ -51,62 +51,66 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    // flex :1,
+    height:600,
+    width: 500,
     backgroundColor: 'ghostwhite',
-    marginVertical: '10%',
-    marginHorizontal: '5%',
     borderWidth: 2,
     alignItems: 'center',
     justifyContent: 'center',
+    marginVertical: '20%',
+    marginHorizontal: '15%',
   },
 
   columnContainer: {
     borderWidth: 2,
-    borderColor : 'green',
+    height:280,
+    width: 150,
+    borderColor : 'red',
+    marginBottom: 30,
     marginVertical: 10,
-    marginLeft: 20,
-    marginRight: 260
+    marginRight: 280
   },
   rowFlexDesign: {
     flexDirection: 'row',
-    
   },
   rowContainer: {
     
     borderWidth: 2,
-    borderColor : 'green',
-
+    borderColor : 'orange',
   },
   columnBox: {
     borderWidth: 2,
     backgroundColor: 'lightgray',
-    borderColor : 'green',
-    width: 80,
-    height: 50,
+    borderColor : 'blue',
+    height: 60,
+    width: 110,
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 5,
-    marginHorizontal: 5
-
+    marginBottom: 15,
+    marginLeft: 12
+  
   },
   rowBox: {
     borderWidth: 2,
     backgroundColor: 'lightgray',
     borderColor : 'green',
-    width: 100,
-    height: 50,
+    height: 60,
+    width: 120,
     alignItems: 'center',
     justifyContent: 'center',
-    marginVertical: 2.5,
-    marginHorizontal: 5
+    marginVertical: 15,
+    marginHorizontal: 10
 
   },
   text: {
-    fontSize: 18,
+    fontSize: 24,
+    marginBottom: 10,
     fontWeight: 'bold',
     marginHorizontal: 5,
     alignItems: 'center',
   },
+
   rowHeading: {
     borderWidth: 2
 
